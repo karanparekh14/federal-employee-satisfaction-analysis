@@ -1,6 +1,6 @@
 # Remote Work and Federal Employee Satisfaction
 
-**ADTA 5940 — Analytics Capstone Experience**
+**Analytics Capstone Experience (ADTA 5940)**
 **University of North Texas · Spring 2026**
 **Authors:** Karan Parekh · Chau Le
 **Faculty advisor:** Dr. Denise Philpot
@@ -9,11 +9,11 @@
 
 ## Project summary
 
-This capstone investigates two research questions on the U.S. federal workforce, using the **2024 Federal Employee Viewpoint Survey** (FEVS) — a public-release file from the Office of Personnel Management covering **646,545 respondents across 36 agencies**.
+This capstone investigates two research questions on the U.S. federal workforce, using the **2024 Federal Employee Viewpoint Survey** (FEVS), a public-release file from the Office of Personnel Management covering **646,545 respondents across 36 agencies**.
 
 | RQ | Question | Method | Headline finding |
 |---|---|---|---|
-| **RQ1** | Does telework frequency predict job satisfaction, after controlling for engagement and work-life balance? | Hierarchical OLS regression, 4 nested model blocks | A **Simpson's Paradox** — the raw 0.40-point telework gap *flips sign* once engagement and WLB are controlled. **Engagement is the dominant predictor (β = 0.71, ~7× the next variable).** Demographics add only 0.2% to R². |
+| **RQ1** | Does telework frequency predict job satisfaction, after controlling for engagement and work-life balance? | Hierarchical OLS regression, 4 nested model blocks | A **Simpson's Paradox**: the raw 0.40-point telework gap *flips sign* once engagement and WLB are controlled. **Engagement is the dominant predictor (β = 0.71, ~7× the next variable).** Demographics add only 0.2% to R². |
 | **RQ2** | Which employees are at risk of leaving? | XGBoost binary classifier on `DLEAVING_BIN`, with class-imbalance handling | **AUC 0.77, recall 64%** on actual leavers. Top drivers: job satisfaction, leadership, pay satisfaction, tenure-20+. |
 
 **Final R²** for the satisfaction model: **0.597** (n = 519,284 after listwise deletion).
@@ -24,10 +24,10 @@ This capstone investigates two research questions on the U.S. federal workforce,
 
 | Block | Variables added | R² | ΔR² |
 |---|---|---:|---:|
-| 1 — Telework | Telework frequency (Q91 dummies) | .020 | .020 |
-| 2 — Work-Life Balance | WLB composite (Q34, Q49, Q63 mean) | .409 | .389 |
-| 3 — Engagement | Employee Engagement Index (15-item OPM scale) | .595 | .186 |
-| 4 — Demographics | Supervisor status, gender, age, tenure | .597 | .002 |
+| 1. Telework | Telework frequency (Q91 dummies) | .020 | .020 |
+| 2. Work-Life Balance | WLB composite (Q34, Q49, Q63 mean) | .409 | .389 |
+| 3. Engagement | Employee Engagement Index (15-item OPM scale) | .595 | .186 |
+| 4. Demographics | Supervisor status, gender, age, tenure | .597 | .002 |
 
 ---
 
@@ -46,10 +46,10 @@ This capstone investigates two research questions on the U.S. federal workforce,
 
 | File | Purpose |
 |---|---|
-| [`presentation_pipeline.py`](presentation_pipeline.py) | Single-script reproduction — runs both research questions and produces every figure used in the deck |
+| [`presentation_pipeline.py`](presentation_pipeline.py) | Single-script reproduction that runs both research questions and produces every figure used in the deck |
 | [`module4_analysis.py`](module4_analysis.py) | Original hierarchical-regression analysis (matches submitted Module 4 doc exactly) |
 | [`run_all_models.py`](run_all_models.py) | 10+ ML model comparison (Linear, Ridge, Lasso, RF, GBM, XGBoost, LightGBM, etc.) for satisfaction prediction |
-| [`Attrition_Pipeline_Cleaned.ipynb`](Attrition_Pipeline_Cleaned.ipynb) | Attrition classification notebook — Logistic Regression + XGBoost |
+| [`Attrition_Pipeline_Cleaned.ipynb`](Attrition_Pipeline_Cleaned.ipynb) | Attrition classification notebook (Logistic Regression + XGBoost) |
 | [`EDA and model selection.ipynb`](EDA%20and%20model%20selection.ipynb) | Exploratory data analysis and feature selection |
 | [`Model_Comparison_Analysis.ipynb`](Model_Comparison_Analysis.ipynb) | Model comparison with cross-validation |
 
@@ -106,7 +106,7 @@ This capstone investigates two research questions on the U.S. federal workforce,
 
 ### Prerequisites
 - Python 3.11+ with `pandas`, `numpy`, `statsmodels`, `scikit-learn`, `xgboost`, `matplotlib`, `seaborn`
-- The FEVS 2024 Public Release Data File (`FEVS_2024_PRDF.csv`, ~140 MB) — **not committed** to this repo. Download from [OPM's FEVS public-data page](https://www.opm.gov/fevs/public-data-file/) and place at the repo root.
+- The FEVS 2024 Public Release Data File (`FEVS_2024_PRDF.csv`, ~140 MB) is **not committed** to this repo. Download from [OPM's FEVS public-data page](https://www.opm.gov/fevs/public-data-file/) and place at the repo root.
 
 ### One-shot reproduction
 
@@ -125,30 +125,30 @@ python run_all_models.py
 
 ```bash
 jupyter notebook Attrition_Pipeline_Cleaned.ipynb
-# Restart kernel & Run All — completes in ~3-4 minutes on a laptop
+# Restart kernel & Run All, completes in ~3-4 minutes on a laptop
 ```
 
 ---
 
 ## Key methodological choices
 
-- **Outcome variable (RQ1):** `Q70` ("Considering everything, how satisfied are you with your job?"), 1–5 Likert. Treated as continuous given large *n*; ordinal-logit robustness check on a subsample produced identical rank-ordering of effects.
+- **Outcome variable (RQ1):** `Q70` ("Considering everything, how satisfied are you with your job?"), 1 to 5 Likert. Treated as continuous given large *n*; ordinal-logit robustness check on a subsample produced identical rank-ordering of effects.
 - **Composite scales:**
-  - **Employee Engagement Index (EEI)** — OPM's official 15-item index, mean of three sub-indices: Intrinsic Work Experience (Q2, Q3, Q4, Q6, Q7), Supervisor (Q48, Q50, Q51, Q52, Q54), Leaders Lead (Q57, Q58, Q59, Q61, Q62).
-  - **Work-Life Balance composite** — mean of Q34, Q49, Q63.
-  - **Leadership score** (RQ2) — mean of Q57–Q65 (per Chau's notebook design).
+  - **Employee Engagement Index (EEI):** OPM's official 15-item index, mean of three sub-indices: Intrinsic Work Experience (Q2, Q3, Q4, Q6, Q7), Supervisor (Q48, Q50, Q51, Q52, Q54), Leaders Lead (Q57, Q58, Q59, Q61, Q62).
+  - **Work-Life Balance composite:** mean of Q34, Q49, Q63.
+  - **Leadership score** (RQ2): mean of Q57 to Q65 (per Chau's notebook design).
 - **Telework variable:** Q91 dummy-coded with routine remote (Q91=1) as the reference category.
 - **Sample for RQ1:** *n* = 519,284 after listwise deletion across all model variables.
-- **Class imbalance (RQ2):** 33% base attrition rate; XGBoost trained with `scale_pos_weight = (n_stay / n_leave)` — recall on minority class jumped from 46% (RF) to **64%** (XGBoost) on the same dataset.
+- **Class imbalance (RQ2):** 33% base attrition rate; XGBoost trained with `scale_pos_weight = (n_stay / n_leave)`, and recall on minority class jumped from 46% (RF) to **64%** (XGBoost) on the same dataset.
 
 ---
 
 ## Limitations
 
-1. **Cross-sectional** — we identify association, not causation.
-2. **Self-reported** — engagement and satisfaction are rated by the same respondent in the same survey, so common-method variance can inflate the relationship.
-3. **Single year (2024)** — replication across 2022–2024 would strengthen the policy claims.
-4. **Survey weights** — `POSTWT` was used as a robustness check; headline R² changed by less than 0.5 percentage point. Main analysis is unweighted for interpretability.
+1. **Cross-sectional:** we identify association, not causation.
+2. **Self-reported:** engagement and satisfaction are rated by the same respondent in the same survey, so common-method variance can inflate the relationship.
+3. **Single year (2024):** replication across 2022 to 2024 would strengthen the policy claims.
+4. **Survey weights:** `POSTWT` was used as a robustness check; headline R² changed by less than 0.5 percentage point. Main analysis is unweighted for interpretability.
 
 ---
 
@@ -158,18 +158,18 @@ jupyter notebook Attrition_Pipeline_Cleaned.ipynb
 |:---:|:---:|
 | **R² progression across model blocks** | **Standardized coefficients** |
 | ![](figures_presentation/03_r2_progression.png) | ![](figures_presentation/05_standardized_coefs.png) |
-| **Simpson's Paradox — telework effect flips** | **Pay satisfaction → attrition gradient** |
+| **Simpson's Paradox: telework effect flips** | **Pay satisfaction → attrition gradient** |
 | ![](figures_presentation/04_simpsons_paradox.png) | ![](figures_from_notebook/cell16_attrition_by_pay_CORRECTED.png) |
 
 ---
 
 ## Acknowledgments
 
-- **Dr. Denise Philpot** — capstone advisor
-- **U.S. Office of Personnel Management** — for releasing the public-use microdata file
+- **Dr. Denise Philpot**, capstone advisor
+- **U.S. Office of Personnel Management**, for releasing the public-use microdata file
 
 ---
 
 ## License
 
-Academic project — code is provided as-is for educational and replication purposes. The underlying FEVS data is U.S. government work in the public domain.
+Academic project. Code is provided as-is for educational and replication purposes. The underlying FEVS data is U.S. government work in the public domain.
