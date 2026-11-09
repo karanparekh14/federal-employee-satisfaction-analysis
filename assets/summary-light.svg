@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="620" viewBox="0 0 1200 620" role="img" aria-label="Federal employee satisfaction: hierarchical regression R squared by block, and the attrition model">
+<title>Federal employee satisfaction: hierarchical regression R squared by block, and the attrition model</title>
+<rect width="1200" height="620" rx="16" fill="#ffffff" stroke="#d0d7de"/>
+<text x="40" y="54" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="26" font-weight="700" fill="#1f2328" text-anchor="start">Remote work and federal employee satisfaction</text>
+<text x="40" y="82" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="400" fill="#57606a" text-anchor="start">2024 FEVS: 646,545 respondents; 519,284 complete responses modelled. UNT analytics capstone, with Chau Le.</text>
+<text x="40" y="124" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="700" fill="#8c959f" text-anchor="start">RQ1 · HIERARCHICAL OLS, R² AS EACH BLOCK IS ADDED</text>
+<text x="40" y="163" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#1f2328" text-anchor="start">1  Telework frequency</text>
+<rect x="260" y="142" width="520" height="30" rx="6" fill="#f6f8fa"/>
+<rect x="260" y="142" width="16.0" height="30" rx="6" fill="#8c959f"/>
+<text x="286.0" y="163" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" font-weight="700" fill="#1f2328" text-anchor="start">.020</text>
+<text x="40" y="207" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#1f2328" text-anchor="start">2  + Work-life balance</text>
+<rect x="260" y="186" width="520" height="30" rx="6" fill="#f6f8fa"/>
+<rect x="260" y="186" width="327.19999999999993" height="30" rx="6" fill="#8c959f"/>
+<text x="597.1999999999999" y="207" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" font-weight="700" fill="#1f2328" text-anchor="start">.409</text>
+<text x="40" y="251" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#1f2328" text-anchor="start">3  + Engagement index</text>
+<rect x="260" y="230" width="520" height="30" rx="6" fill="#f6f8fa"/>
+<rect x="260" y="230" width="475.99999999999994" height="30" rx="6" fill="#0969da"/>
+<text x="746.0" y="251" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" font-weight="700" fill="#1f2328" text-anchor="start">.595</text>
+<text x="40" y="295" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#1f2328" text-anchor="start">4  + Demographics</text>
+<rect x="260" y="274" width="520" height="30" rx="6" fill="#f6f8fa"/>
+<rect x="260" y="274" width="477.59999999999997" height="30" rx="6" fill="#8c959f"/>
+<text x="747.5999999999999" y="295" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" font-weight="700" fill="#1f2328" text-anchor="start">.597</text>
+<rect x="830" y="112" width="330" height="218" rx="12" fill="#ffffff" stroke="#0969da" stroke-width="1.4"/>
+<text x="850" y="140" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#1f2328" text-anchor="start">Simpson's paradox</text>
+<text x="850" y="166.0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="400" fill="#1f2328" text-anchor="start">The raw telework gap of 0.40 points</text>
+<text x="850" y="184.46" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="400" fill="#1f2328" text-anchor="start">flips sign once engagement and</text>
+<text x="850" y="202.92000000000002" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="400" fill="#1f2328" text-anchor="start">work-life balance are controlled.</text>
+<text x="850" y="221.38" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="400" fill="#1f2328" text-anchor="start"></text>
+<text x="850" y="239.84" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="400" fill="#1f2328" text-anchor="start">Engagement is the dominant</text>
+<text x="850" y="258.3" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="400" fill="#1f2328" text-anchor="start">predictor (β = 0.71, about seven</text>
+<text x="850" y="276.76" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="400" fill="#1f2328" text-anchor="start">times the next variable).</text>
+<text x="40" y="344" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="700" fill="#8c959f" text-anchor="start">RQ2 · WHO IS AT RISK OF LEAVING</text>
+<rect x="40" y="360" width="1120" height="120" rx="12" fill="#ffffff" stroke="#d0d7de" stroke-width="1.2"/>
+<text x="64" y="412" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="30" font-weight="800" fill="#1a7f37" text-anchor="start">0.77</text>
+<text x="64" y="444" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="400" fill="#57606a" text-anchor="start">AUC, XGBoost</text>
+<text x="340" y="412" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="30" font-weight="800" fill="#1a7f37" text-anchor="start">64%</text>
+<text x="340" y="444" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="400" fill="#57606a" text-anchor="start">recall on actual leavers</text>
+<text x="616" y="412" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="30" font-weight="800" fill="#1a7f37" text-anchor="start">33%</text>
+<text x="616" y="444" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="400" fill="#57606a" text-anchor="start">base attrition rate</text>
+<text x="892" y="412" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="30" font-weight="800" fill="#1a7f37" text-anchor="start">46% → 64%</text>
+<text x="892" y="444" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="400" fill="#57606a" text-anchor="start">recall, random forest to XGBoost</text>
+<rect x="40" y="500" width="1120" height="96" rx="12" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1.2"/>
+<text x="60" y="528" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14.5" font-weight="700" fill="#1f2328" text-anchor="start">Read with care</text>
+<text x="60" y="552.0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="400" fill="#57606a" text-anchor="start">Cross-sectional and self-reported, so association, not causation. Survey weights changed R² by under half a point.</text>
+<text x="60" y="570.46" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="400" fill="#57606a" text-anchor="start">Top attrition drivers: job satisfaction, leadership, pay satisfaction, 20+ years of tenure.</text>
+</svg>

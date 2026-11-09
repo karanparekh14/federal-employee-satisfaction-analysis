@@ -5,6 +5,15 @@
 **Authors:** Karan Parekh · Chau Le
 **Faculty advisor:** Dr. Denise Philpot
 
+<p>
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"> <img src="https://img.shields.io/badge/statsmodels-4051B5?style=flat-square" alt="statsmodels"> <img src="https://img.shields.io/badge/XGBoost-189FDD?style=flat-square" alt="XGBoost"> <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white" alt="scikit-learn"> <img src="https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white" alt="pandas"> <img src="https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white" alt="Jupyter">
+</p>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/summary-dark.svg">
+  <img alt="R squared by block: .020, .409, .595, .597; the Simpson's paradox; attrition model AUC 0.77 with 64% recall" src="assets/summary-light.svg" width="100%">
+</picture>
+
 ---
 
 ## Project summary
@@ -85,7 +94,6 @@ This capstone investigates two research questions on the U.S. federal workforce,
 | `Presentation_Transcript.md` / `.docx` | Full spoken transcript for the final presentation |
 | `Canva_Build_Kit.md` | Step-by-step Canva build guide for the deck |
 | `Canva_XGBoost_Updates.md` | Diff doc for the RF→XGBoost model swap |
-| `Brief_For_Chau.md` | Team coordination brief |
 | `Model_Selection_Summary_for_Team.md` / `.docx` | Model-selection rationale shared with team |
 | `references_module3.ris` | Bibliographic references (RIS format) |
 
