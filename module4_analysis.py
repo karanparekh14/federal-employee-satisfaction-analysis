@@ -1,6 +1,6 @@
 """
 ADTA 5940 - Module 4: Model with Results
-Karan Parekh | Spring 2026
+Karan Parekh
 
 Research Question:
   To what extent does telework frequency predict overall job satisfaction

@@ -120,7 +120,7 @@ def create_karan_doc():
     info_lines = [
         "Karan Parekh",
         "ADTA 5940 — Analytics Capstone Experience",
-        "Section 501 | Spring 2026",
+        "Section 501",
         "University of North Texas",
         "Dr. Denise Philpot",
     ]
@@ -579,7 +579,7 @@ def create_chau_doc():
     info_lines = [
         "Chau Lee",
         "ADTA 5940 — Analytics Capstone Experience",
-        "Section 501 | Spring 2026",
+        "Section 501",
         "University of North Texas",
         "Dr. Denise Philpot",
     ]

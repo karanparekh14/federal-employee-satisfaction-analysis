@@ -33,7 +33,7 @@ Chau handles modeling slides (8 onward) separately.
 
 **Copy to type (use these exact words, or change to your voice):**
 
-> Top of slide (small, white, bold caps): `ADTA 5940 · ANALYTICS CAPSTONE · SPRING 2026`
+> Top of slide (small, white, bold caps): `ADTA 5940 · ANALYTICS CAPSTONE`
 >
 > Then a thin gold horizontal line `#FFC107` (just a Canva rectangle 1 inch wide × 6 px tall)
 >

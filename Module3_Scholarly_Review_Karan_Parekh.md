@@ -2,7 +2,7 @@
 
 **Karan Parekh**
 **ADTA 5940 — Analytics Capstone Experience**
-**University of North Texas | Spring 2026**
+**University of North Texas**
 
 ---
 

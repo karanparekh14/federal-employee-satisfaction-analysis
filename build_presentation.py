@@ -105,7 +105,7 @@ add_rect(s, 0, 0, SW, SH, NAVY)
 # accent gold thin bar
 add_rect(s, Inches(0.7), Inches(2.6), Inches(0.9), Inches(0.08), GOLD)
 add_text(s, Inches(0.7), Inches(2.0), Inches(11), Inches(0.5),
-         "ADTA 5940 — ANALYTICS CAPSTONE · SPRING 2026",
+         "ADTA 5940 · ANALYTICS CAPSTONE",
          size=13, bold=True, color=ICE, font=FONT_HEAD)
 add_text(s, Inches(0.7), Inches(2.85), Inches(12), Inches(1.6),
          "Remote Work and\nFederal Employee Satisfaction",

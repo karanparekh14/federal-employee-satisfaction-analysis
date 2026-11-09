@@ -1,5 +1,5 @@
 # ADTA 5940 Capstone — Model Selection Summary
-### Prepared: March 19, 2026 | Team: Karan Parekh & Chau Lee
+### Team: Karan Parekh & Chau Lee
 
 ---
 

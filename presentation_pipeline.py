@@ -1,10 +1,10 @@
 """
 ADTA 5940 Capstone — Module 5 Presentation Pipeline
 ====================================================
-Karan Parekh & Chau Le | Spring 2026
+Karan Parekh & Chau Le
 
 Single end-to-end script that produces every figure and number the team
-needs for the May 4 final presentation. Aligned with the submitted
+needs for the final presentation. Aligned with the submitted
 Module 4 document (two research questions on job satisfaction), with an
 optional attrition track included as a secondary insight.
 

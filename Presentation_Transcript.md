@@ -1,6 +1,6 @@
 # Module 5 Presentation — Spoken Transcript
 
-**Karan Parekh & Chau Le**  ·  ADTA 5940 Capstone  ·  May 4, 2026
+**Karan Parekh & Chau Le**  ·  ADTA 5940 Capstone
 **Total runtime: ~14:30 + buffer for transitions = 15:00**
 
 ---
@@ -8,7 +8,7 @@
 ## How to use this
 
 - Print or pull up on your phone next to your laptop. Don't memorize word for word.
-- Read it out loud once or twice in your room before May 4. It should sound like *you*.
+- Read it out loud once or twice in your room before the presentation. It should sound like *you*.
 - Square brackets `[like this]` are stage directions, not things you say.
 - Bold text in transcripts = emphasis when speaking.
 - Italics = optional lines you can drop if you're running long.
@@ -327,7 +327,7 @@ These are the most likely questions. Practice answering them out loud.
 
 ## Final pre-presentation checklist
 
-- [ ] Run through this transcript out loud, once, sometime before May 4
+- [ ] Run through this transcript out loud, once, sometime before the presentation
 - [ ] Time yourself — should land between 14:00 and 15:00
 - [ ] Decide who clicks the slide remote (probably whoever's about to talk)
 - [ ] Charge your laptop, bring the adapter

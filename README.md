@@ -1,7 +1,7 @@
 # Remote Work and Federal Employee Satisfaction
 
 **Analytics Capstone Experience (ADTA 5940)**
-**University of North Texas · Spring 2026**
+**University of North Texas**
 **Authors:** Karan Parekh · Chau Le
 **Faculty advisor:** Dr. Denise Philpot
 
@@ -46,7 +46,7 @@ This capstone investigates two research questions on the U.S. federal workforce,
 
 | File | What it is |
 |---|---|
-| [`final_project_presentation.pptx`](final_project_presentation.pptx) | Final 13-slide presentation (Module 5, May 4, 2026) |
+| [`final_project_presentation.pptx`](final_project_presentation.pptx) | Final 13-slide presentation (Module 5) |
 | [`Module5_Final_Presentation_Parekh_Lee.pptx`](Module5_Final_Presentation_Parekh_Lee.pptx) | Reference deck with all charts and structure |
 | [`Module4_Model_Results_Karan_Parekh_v2.docx`](Module4_Model_Results_Karan_Parekh_v2.docx) | Submitted Module 4 model & results brief |
 | [`Module3_Scholarly_Review_Parekh_Lee.docx`](Module3_Scholarly_Review_Parekh_Lee.docx) | Submitted Module 3 scholarly review |

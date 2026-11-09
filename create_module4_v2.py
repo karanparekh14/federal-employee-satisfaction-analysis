@@ -104,7 +104,7 @@ def create_karan_doc_v2():
     for line in [
         "Karan Parekh",
         "ADTA 5940 — Analytics Capstone Experience",
-        "Section 501 | Spring 2026",
+        "Section 501",
         "University of North Texas",
         "Dr. Denise Philpot",
     ]:

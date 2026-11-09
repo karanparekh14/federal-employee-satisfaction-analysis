@@ -64,7 +64,7 @@ for run in title.runs:
 
 p = doc.add_paragraph()
 p.alignment = WD_ALIGN_PARAGRAPH.CENTER
-run = p.add_run('Prepared: March 19, 2026  |  Team: Karan Parekh & Chau Lee')
+run = p.add_run('Team: Karan Parekh & Chau Lee')
 run.font.size = Pt(12)
 run.font.color.rgb = RGBColor(100, 100, 100)
 

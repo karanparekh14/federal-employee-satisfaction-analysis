@@ -98,7 +98,7 @@ const cover = [
     alignment: AlignmentType.CENTER,
     spacing: { after: 80 },
     children: [new TextRun({
-      text: "ADTA 5940  ·  ANALYTICS CAPSTONE  ·  SPRING 2026",
+      text: "ADTA 5940  ·  ANALYTICS CAPSTONE",
       bold: true, color: NAVY, size: 22, font: "Calibri",
     })],
   }),
@@ -161,7 +161,7 @@ const cover = [
 // ---------- How to use ----------
 const howto = [
   heading("How to use this transcript", HeadingLevel.HEADING_1),
-  bullet("Print this or open it on your phone next to your laptop on May 4."),
+  bullet("Print this or open it on your phone next to your laptop on presentation day."),
   bullet("Read it out loud once at home before the day of. It should sound like you, not a script."),
   bullet("Stage directions in italics inside [brackets] are not things you say out loud."),
   bullet("The bordered grey blocks are the actual lines you say. Look at the audience between sentences."),
@@ -438,7 +438,7 @@ const doc = new Document({
         children: [new Paragraph({
           tabStops: [{ type: TabStopType.RIGHT, position: TabStopPosition.MAX }],
           children: [
-            new TextRun({ text: "ADTA 5940 · Capstone · Spring 2026",
+            new TextRun({ text: "ADTA 5940 · Capstone",
                           font: "Calibri", size: 18, color: MUTED }),
             new TextRun({ text: "\tKaran Parekh · Chau Le",
                           font: "Calibri", size: 18, color: MUTED }),

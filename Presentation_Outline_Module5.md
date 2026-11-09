@@ -1,7 +1,7 @@
 # Module 5 — Final Presentation Outline
 
-**Karan Parekh & Chau Le · ADTA 5940 Spring 2026**
-**Due: Mon May 4, 2026 9:00 PM · 15-minute limit · 200 points**
+**Karan Parekh & Chau Le · ADTA 5940**
+**15-minute limit · 200 points**
 
 ---
 
@@ -40,7 +40,7 @@ Q&A is separate (15 pts on rubric, but not part of the 15-minute limit).
 ### Slide 1 — Title
 - **Remote Work and Federal Employee Satisfaction**
 - *A view from 646,000 federal employees*
-- Karan Parekh & Chau Le · ADTA 5940 · Spring 2026
+- Karan Parekh & Chau Le · ADTA 5940
 - Single full-bleed photo (federal building or "remote work" stock image), title overlaid bottom-left.
 - **No** university logo clutter, no email addresses on title slide.
 
